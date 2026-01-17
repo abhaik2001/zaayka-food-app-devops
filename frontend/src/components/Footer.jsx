@@ -59,7 +59,7 @@ const Footer = forwardRef((props, ref) => {
                 </div>
 
                 {/* Copyrights */}
-                <p className='text-center text-sm xs:text-base'>&copy; 2024 Zaayka Pvt. Ltd | All rights reserved.</p>
+                <p className='text-center text-sm xs:text-base'>&copy; 2024 Foodibee Pvt. Ltd | All rights reserved.</p>
             </div>
         </div>
     </div>

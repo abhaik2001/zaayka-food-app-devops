@@ -19,7 +19,7 @@ const ExploreMenu = forwardRef(({category, setCategory},ref) => {
         Explore Our Menu
       </h1>
       <p className='text-xl xl:w-4/5 2xl:w-3/5 text-coffee text-center lg:text-left'>
-        Discover the culinary wonders of Zaayka with our extensive menu. From spicy Indian curries to global delicacies, each dish is crafted with the freshest ingredients and traditional recipes. 
+        Discover the culinary wonders of Foodibee with our extensive menu. From spicy Indian curries to global delicacies, each dish is crafted with the freshest ingredients and traditional recipes. 
       </p>
       <div className='mt-16 pb-16 flex justify-between gap-[2rem] md:gap-10 lg:gap-3 border-b-2 border-slate-300 overflow-x-scroll hide-scroll'>
         {/* <div>

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Context } from '../context/Context';
 import axios from 'axios';
-import { assets } from '../../../admin/src/assets/assets';
+import { assets } from '../assets/assets';
 import useScrollToTop from '../hooks/useScrollToTop';
 import { toast } from 'react-toastify';
 import useAuthRedirect from '../hooks/useAuthRedirect';

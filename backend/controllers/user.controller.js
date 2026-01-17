@@ -1,6 +1,6 @@
 import  User  from '../models/user.models.js';
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import validator from "validator";
 import { sendResetEmail } from '../utils/sendResetEmail.js';
 import crypto from "crypto";

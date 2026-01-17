@@ -44,7 +44,10 @@
 
   // Serving static files
   app.use("/images", express.static("public")) //do not use /api/v1 for serving static files
-
+  
+  app.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
 
   //Get request for API endpoint
   app.get('/', (req, res) => {
